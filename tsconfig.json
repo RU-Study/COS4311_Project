@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "module": "commonjs",
+    "target": "es2020",
+    "lib": ["es6", "dom"],
+    "types": [],
+    "sourceMap": true,
+    "strict": true,
+    "verbatimModuleSyntax": false, // *แนะนำให้ปิดตัวนี้ถ้าใช้ ts-node ธรรมดา เพราะบางทีมันตีกัน
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "esModuleInterop": true // *ควรเพิ่มบรรทัดนี้ เพื่อให้ import ของแบบเก่าไม่พัง
+  },
+  "ts-node": {
+    "esm": false,
+    "experimentalSpecifierResolution": "node"
+  }
+}
