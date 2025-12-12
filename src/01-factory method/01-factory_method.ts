@@ -1,9 +1,11 @@
+// + Product + //
 interface Building {
   costEstimation(): void;
   construction(): void;
   inspection(): void;
 }
 
+// + Concrete Products + //
 class ConcreteHouse implements Building {
   costEstimation(): void {
     console.log("ดำเนินการประเมิณค่าใช้จ่ายในการสร้างบ้านคอนกรีต");
@@ -46,6 +48,7 @@ class WoodenHouse implements Building {
   }
 }
 
+// + Creator + //
 abstract class ConstructionCompany {
   abstract getBuilding(): Building;
   public createBuilding(): void {
@@ -57,6 +60,7 @@ abstract class ConstructionCompany {
   }
 }
 
+// + Concrete Creators + //
 class ConcreteHouseCompany extends ConstructionCompany {
   getBuilding(): Building {
     return new ConcreteHouse();
@@ -75,6 +79,7 @@ class WoodenHouseCompany extends ConstructionCompany {
   } 
 }
 
+// + Client Code + //
 function clientCode(constructionCompany: ConstructionCompany) {
   constructionCompany.createBuilding();
 }
