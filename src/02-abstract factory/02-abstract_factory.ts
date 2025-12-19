@@ -166,7 +166,6 @@ client.make();
 console.log("\n------------------------------\n");
 
 // + Client Function * //
-
 function clientFunc(factory: FanFactory) {
   factory.createBlade().make();
   factory.createMotor().make();

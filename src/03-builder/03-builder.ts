@@ -1,9 +1,9 @@
-// + Fan + //
+// + Product + //
 class Fan {
-  private size: Number;
-  private hasPCB: Boolean = false;
+  private size: number;
+  private hasPCB: boolean = false;
 
-  constructor(size: Number) {
+  constructor(size: number) {
     this.size = size;
   }
 
@@ -12,16 +12,16 @@ class Fan {
   }
   
   setBlade(): void {
-    console.log("ผลิตใบพัดพัดลมแล้ว...")
+    console.log("ผลิตใบพัดพัดลมแล้ว...");
   }
   
   setGuard(): void {
-    console.log("ผลิตโครงพัดลมแล้ว...")
+    console.log("ผลิตโครงพัดลมแล้ว...");
   }
   
   setPCB(): void {
     this.hasPCB = true;
-    console.log("ผลิตแผงวงตรควบคุมแล้ว...")
+    console.log("ผลิตแผงวงตรควบคุมแล้ว...");
   } 
 
   show(): void {
@@ -67,7 +67,7 @@ class Fan14InchBuilder implements Builder {
   }
 
   getResult(): Fan {
-    return this.fan
+    return this.fan;
   }
 }
 
@@ -99,7 +99,7 @@ class Fan16InchBuilder implements Builder {
   }
 
   getResult(): Fan {
-    return this.fan
+    return this.fan;
   }
 }
 
