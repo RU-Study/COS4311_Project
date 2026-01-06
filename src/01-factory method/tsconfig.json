@@ -1,0 +1,21 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../dist/01-factory method",
+    "rootDir": ".",
+    "composite": true,
+    "incremental": true,
+    "module": "commonjs",
+    "target": "es2020",
+    "lib": ["es6", "dom"],
+    "types": [],
+    "sourceMap": true,
+    "strict": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules", "dist"]
+}
