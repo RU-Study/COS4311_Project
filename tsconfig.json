@@ -4,7 +4,8 @@
     { "path": "./src/01-factory method" },
     { "path": "./src/02-abstract factory" },
     { "path": "./src/03-builder" },
-    { "path": "./src/04-prototype" }
+    { "path": "./src/04-prototype" },
+    { "path": "./src/05-singleton" }
   ],
   "ts-node": {
     "esm": false,
