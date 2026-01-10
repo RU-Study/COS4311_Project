@@ -5,7 +5,10 @@
     { "path": "./src/02-abstract factory" },
     { "path": "./src/03-builder" },
     { "path": "./src/04-prototype" },
-    { "path": "./src/05-singleton" }
+    { "path": "./src/05-singleton" },
+    { "path": "./src/06-adapter" },
+    { "path": "./src/07-bridge" },
+    { "path": "./src/08-composite" }
   ],
   "ts-node": {
     "esm": false,
