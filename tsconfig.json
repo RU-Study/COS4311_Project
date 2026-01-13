@@ -1,14 +1,14 @@
 {
   "files": [],
   "references": [
-    { "path": "./src/01-factory method" },
-    { "path": "./src/02-abstract factory" },
-    { "path": "./src/03-builder" },
-    { "path": "./src/04-prototype" },
-    { "path": "./src/05-singleton" },
-    { "path": "./src/06-adapter" },
-    { "path": "./src/07-bridge" },
-    { "path": "./src/08-composite" }
+    { "path": "./pattern/01-factory method" },
+    { "path": "./pattern/02-abstract factory" },
+    { "path": "./pattern/03-builder" },
+    { "path": "./pattern/04-prototype" },
+    { "path": "./pattern/05-singleton" },
+    { "path": "./pattern/06-adapter" },
+    { "path": "./pattern/07-bridge" },
+    { "path": "./pattern/08-composite" }
   ],
   "ts-node": {
     "esm": false,
