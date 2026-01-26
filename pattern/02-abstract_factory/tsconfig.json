@@ -1,7 +1,7 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "outDir": "../../dist/02-abstract factory",
+    "outDir": "../../dist/02-abstract_factory",
     "rootDir": ".",
     "composite": true,
     "incremental": true,

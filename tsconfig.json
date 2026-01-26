@@ -1,14 +1,19 @@
 {
   "files": [],
   "references": [
-    { "path": "./pattern/01-factory method" },
-    { "path": "./pattern/02-abstract factory" },
+    { "path": "./pattern/01-factory_method" },
+    { "path": "./pattern/02-abstract_factory" },
     { "path": "./pattern/03-builder" },
     { "path": "./pattern/04-prototype" },
     { "path": "./pattern/05-singleton" },
     { "path": "./pattern/06-adapter" },
     { "path": "./pattern/07-bridge" },
-    { "path": "./pattern/08-composite" }
+    { "path": "./pattern/08-composite" },
+    { "path": "./pattern/09-decorator" },
+    { "path": "./pattern/10-facade" },
+    { "path": "./pattern/11-flyweight" },
+    { "path": "./pattern/12-proxy" },
+    { "path": "./pattern/13-chain_of_responsibility" }
   ],
   "ts-node": {
     "esm": false,
