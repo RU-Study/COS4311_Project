@@ -13,7 +13,8 @@
     { "path": "./pattern/10-facade" },
     { "path": "./pattern/11-flyweight" },
     { "path": "./pattern/12-proxy" },
-    { "path": "./pattern/13-chain_of_responsibility" }
+    { "path": "./pattern/13-chain_of_responsibility" },
+    { "path": "./pattern/14-command" },
   ],
   "ts-node": {
     "esm": false,
