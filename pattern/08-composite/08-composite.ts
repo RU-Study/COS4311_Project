@@ -24,13 +24,13 @@ class AdministrativeUnit implements Administrative {
   }
 
   getPopulation(): number {
-  let population = 0;
+    let population = 0;
 
-  this.administrative.forEach((node: Administrative) => {
-    population += node.getPopulation();
-  });
+    this.administrative.forEach((node: Administrative) => {
+      population += node.getPopulation();
+    });
 
-  return population;
+    return population;
   }
 }
 
