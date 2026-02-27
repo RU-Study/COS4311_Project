@@ -15,6 +15,14 @@
     { "path": "./pattern/12-proxy" },
     { "path": "./pattern/13-chain_of_responsibility" },
     { "path": "./pattern/14-command" },
+    { "path": "./pattern/15-iterator" },
+    { "path": "./pattern/16-mediator" },
+    { "path": "./pattern/17-memento" },
+    { "path": "./pattern/18-observer" },
+    { "path": "./pattern/19-state" },
+    { "path": "./pattern/20-strategy" },
+    { "path": "./pattern/21-template_method" },
+    { "path": "./pattern/22-visitor" }
   ],
   "ts-node": {
     "esm": false,
