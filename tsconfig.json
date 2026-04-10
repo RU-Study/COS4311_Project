@@ -22,7 +22,8 @@
     { "path": "./pattern/19-state" },
     { "path": "./pattern/20-strategy" },
     { "path": "./pattern/21-template_method" },
-    { "path": "./pattern/22-visitor" }
+    { "path": "./pattern/22-visitor" },
+    { "path": "./final_project/" },
   ],
   "ts-node": {
     "esm": false,
